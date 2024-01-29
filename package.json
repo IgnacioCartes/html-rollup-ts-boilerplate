@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Boilerplate to start an HTML project using Typescript and Rollup.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rimraf build && rollup -c ./rollup.build.config.js",

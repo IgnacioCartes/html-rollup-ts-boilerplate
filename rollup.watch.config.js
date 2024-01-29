@@ -1,5 +1,5 @@
-import serve from 'rollup-plugin-serve';
 import typescript from '@rollup/plugin-typescript';
+import serve from 'rollup-plugin-serve';
 import copy from './plugins/rollup.plugin.copy.js';
 
 export default {

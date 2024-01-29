@@ -1,6 +1,6 @@
 import typescript from '@rollup/plugin-typescript';
-import copy from './rollup.plugin.copy.js';
 import terser from '@rollup/plugin-terser';
+import copy from './plugins/rollup.plugin.copy.js';
 
 export default {
   input: 'src/index.ts',
