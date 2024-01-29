@@ -1,3 +1,9 @@
-const message: string = 'Hello World';
+interface Data {
+  message: string;
+}
 
-window.alert(message);
+const data: Data = {
+  message: 'Hello World!',
+};
+
+window.alert(data.message);
