@@ -1,0 +1,11 @@
+# Logs
+*.log
+
+# TS build
+build
+
+# Node modules
+node_modules
+
+# Local files
+local

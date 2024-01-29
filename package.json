@@ -1,0 +1,43 @@
+{
+  "name": "html-rollup-ts-boilerplate",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/IgnacioCartes/html-rollup-ts-boilerplate"
+  },
+  "description": "Boilerplate to start an HTML project using Typescript and Rollup.",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "boilerplate",
+    "HTML",
+    "rollup",
+    "typescript"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf build && rollup -c ./rollup.build.config.js",
+    "watch": "rimraf build && rollup -c ./rollup.watch.config.js -w",
+    "lint": "eslint --ignore-path .eslintignore --ext .ts ./src",
+    "fix": "eslint --fix --ignore-path .eslintignore --ext .ts ./src",
+    "prettier": "prettier --config .prettierrc 'src/**/*.ts' --write"
+  },
+  "author": "Ignacio Cartes <ignacio.cartes.w@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.3",
+    "@rollup/plugin-typescript": "^11.1.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.9",
+    "@typescript-eslint/parser": "^5.59.9",
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nyc": "^15.1.0",
+    "prettier": "^2.8.8",
+    "rimraf": "^5.0.1",
+    "rollup": "^3.23.1",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^2.0.2",
+    "tslib": "^2.5.3",
+    "typescript": "^5.0.4"
+  }
+}
